@@ -34,7 +34,7 @@ export default class KitapTalep<IProps, IState> extends React.Component{
         }
         console.log(this.state.kitapTur);
     }
-
+    //useEffect vs componentDidMount / componentWillMount
     //promise mi dönecek?
     handleSubmit(event: React.FormEvent<HTMLInputElement>) : void{
 

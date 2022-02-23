@@ -1,6 +1,4 @@
 
-import type {LinksFunction} from 'remix';
-import stylesUrl from '../styles/index.css';
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
@@ -10,7 +8,3 @@ export default function Index() {
     </div>
   );
 }
-
-export const links: LinksFunction = () => {
-  return [{ rel: "stylesheet", href: stylesUrl }];
-};
